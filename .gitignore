@@ -1,0 +1,12 @@
+# Mengabaikan file log Docker dan cache database
+.docker/
+.db_data/
+*.log
+
+# Mengabaikan file konfigurasi sensitif (jika ada ke depannya)
+.env
+.env.local
+
+# Mengabaikan file sampah sistem OS
+.DS_Store
+Thumbs.db
